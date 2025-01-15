@@ -1,0 +1,85 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TestFW",
+    "printedName": "TestFW",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestFWClass",
+        "printedName": "TestFWClass",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test(str:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TestFW0A7FWClassC4test3strS2SSg_tF",
+            "mangledName": "$s6TestFW0A7FWClassC4test3strS2SSg_tF",
+            "moduleName": "TestFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6TestFW0A7FWClassC",
+        "mangledName": "$s6TestFW0A7FWClassC",
+        "moduleName": "TestFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
