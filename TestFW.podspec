@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.5'
     # Point to your hosted XCFramework zip file
   s.source           = { 
-    :http => "https://github.com/matthewweldon/TestFW/releases/1.0.0/TestFW.xcframework.zip",
+    :http => "https://github.com/matthewweldon/TestFWPublic/releases/1.0.0/TestFW.xcframework.zip",
     :type => 'zip'
   }
   
