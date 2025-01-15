@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.15'
   
-  s.vendored_frameworks = 'TestFW.xcframework'
+  s.vendored_frameworks = 'releases/1.0.0/TestFW.xcframework'
   s.swift_version = '5.5'
     # Point to your hosted XCFramework zip file
   s.source           = { 
