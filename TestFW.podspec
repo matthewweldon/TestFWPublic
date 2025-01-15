@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/yourusername/MyFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Your Name' => 'matt@siro.ai' }
-  s.source           = { :http => "https://github.com/matthewweldon/TestFWPublic/releases/1.0.0/TestFW.xcframework.zip" }
   
   s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.15'
